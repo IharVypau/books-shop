@@ -1,0 +1,146 @@
+[ {
+  "isbn": "1",
+  "author": "David Flanagan",
+  "imageLink": "https://m.media-amazon.com/images/I/51HbNW6RzhL._SX375_BO1,204,203,200_.jpg",
+  "title": "JavaScript: The Definitive Guide: Master the World's Most-Used Programming Language",
+  "price": 30,
+  "description": "WJavaScript is the programming language of the web and is used by more software developers today than any other programming language. For nearly 25 years this best seller has been the go-to guide for JavaScript programmers. The seventh edition is fully updated to cover the 2020 version of JavaScript, and new chapters cover classes, modules, iterators, generators, Promises, async/await, and metaprogramming. You’ll find illuminating and engaging example code throughout"
+},
+  {
+    "isbn": "2",
+    "author": "Laurence Lars Svekis , Maaike van Putten",
+    "imageLink": "https://m.media-amazon.com/images/I/51QT06cWIcL._SX218_BO1,204,203,200_QL40_FMwebp_.jpg",
+    "title": "JavaScript from Beginner to Professional",
+    "price": 19,
+    "description": "This book demonstrates the capabilities of JavaScript for web application development by combining theoretical learning with code exercises and fun projects that you can challenge yourself with. The guiding principle of the book is to show how straightforward JavaScript techniques can be used to make web apps ranging from dynamic websites to simple browser-based games."
+  },
+  {
+    "isbn": "3",
+    "author": "Marijn Haverbeke",
+    "imageLink": "https://m.media-amazon.com/images/I/51InjRPaF7L._SX218_BO1,204,203,200_QL40_FMwebp_.jpg",
+    "title": "Eloquent JavaScript, 3rd Edition: A Modern Introduction to Programming",
+    "price": 24,
+    "description": "This Fifth Edition is completely revised and expanded to cover JavaScript as it is used in today's Web 2.0 applications. This book is both an example-driven programmer's guide and a keep-on-your-desk reference, with new chapters that explain everything you need to know to get the most out of JavaScript"
+  },
+  {
+    "isbn": "4",
+    "author": " Jon Duckett",
+    "imageLink": "https://m.media-amazon.com/images/I/41y31M-zcgL._SX400_BO1,204,203,200_.jpg",
+    "title": "JavaScript and jQuery: Interactive Front-End Web Development",
+    "price": 20,
+    "description": "Expert techniques to make your websites more interactive and engaging. In JavaScript and jQuery: Interactive Front-End Development, best-selling author Jon Duckett delivers a fully illustrated guide to making your websites more interactive and your interfaces more interesting and intuitive. In the book, you’ll explore basic programming concepts that assume no prior knowledge of programming beyond an ability to create a web page using HTML & CSS. You’ll use core elements of the JavaScript language so you can learn how to write your own scripts from scratch, as well as jQuery, which will allow you to simplify the process of writing scripts (this is introduced half-way through the book once you have a solid understanding of JavaScript)."
+  },
+  {
+    "isbn": "5",
+    "author": "Philip Ackermann",
+    "imageLink": "https://m.media-amazon.com/images/I/51M5TuL5iVL._SX218_BO1,204,203,200_QL40_FMwebp_.jpg",
+    "title": "JavaScript: The Comprehensive Guide to Learning Professional JavaScript Programming",
+    "price": 55,
+    "description": "Begin your JavaScript journey with this comprehensive, hands-on guide. You’ll learn everything there is to know about professional JavaScript programming, from core language concepts to essential client-side tasks. Build dynamic web applications with step-by-step instructions and expand your knowledge by exploring server-side development and mobile development. Work with advanced language features, write clean and efficient code, and much more!. Your all-in-one guide to JavaScript.  Build server-side applications, mobile applications, desktop applications, and more."
+  },
+  {
+    "isbn": "6",
+    "author": "Chris Minnick and Eva Holland",
+    "imageLink": "https://m.media-amazon.com/images/I/51-G-4SUzpL._SX397_BO1,204,203,200_.jpg",
+    "title": "Coding with JavaScript For Dummies",
+    "price": 18,
+    "description": "oding with JavaScript For Dummies provides easy, hands-on instruction for anyone looking to learn this popular client-side language. No experience? No problem! This friendly guide starts from the very beginning and walks you through the basics, then shows you how to apply what you've learned to real projects. You'll start building right away, including web page elements and simple applications, so you can immediately see how JavaScript is used in the real world. Online exercises allow you to test your code and expand your skills, and the easy-to-follow instruction provides step-by-step guidance toward understanding the JavaScript syntax, applications, and language."
+  },
+  {
+     "isbn": "7",
+    "author": "Eric Freeman and Elisabeth Robson",
+    "imageLink": "https://m.media-amazon.com/images/I/519dx5KHv-L._SX218_BO1,204,203,200_QL40_FMwebp_.jpg",
+    "title": "Head First JavaScript Programming: A Brain-Friendly Guide",
+    "price": 25,
+    "description": "This brain friendly guide teaches you everything from JavaScript language fundamentals to advanced topics, including objects, functions, and the browser’s document object model. You won’t just be reading—you’ll be playing games, solving puzzles, pondering mysteries, and interacting with JavaScript in ways you never imagined. And you’ll write real code, lots of it, so you can start building your own web applications"
+  },
+  {
+    "isbn": "8",
+    "author": "Douglas Crockford",
+    "imageLink": "https://m.media-amazon.com/images/I/5131OWtQRaL._SX381_BO1,204,203,200_.jpg",
+    "title": "JavaScript: The Good Parts: The Good Parts",
+    "price": 14,
+    "description": "Most programming languages contain good and bad parts, but JavaScript has more than its share of the bad, having been developed and released in a hurry before it could be refined. This authoritative book scrapes away these bad features to reveal a subset of JavaScript that's more reliable, readable, and maintainable than the language as a whole—a subset you can use to create truly extensible and efficient code."
+  },
+  {
+    "isbn": "9",
+    "author": "Mark Myers",
+    "imageLink": "https://m.media-amazon.com/images/I/412w7SEE1aL._SX351_BO1,204,203,200_.jpg",
+    "title": "A Smarter Way to Learn JavaScript",
+    "price": 8,
+    "description": "Learning JavaScript is hell because of two problems.I remove the problems, and you start having fun. The first problem is retention. You remember only ten or twenty percent of what you read. That spells failure. To become fluent in a computer language, you have to retain pretty much everything. How can you retain everything? Only by constantly being asked to play everything back. That's why people use flashcards. But my system does flashcards one better. After reading a short chapter, you go to my website and complete twenty interactive exercises. Algorithms check your work to make sure you know what you think you know. When you stumble, you do the exercise again. You keep trying until you know the chapter cold. The exercises are free. The second problem is comprehension. Many learners hit a wall when they try to understand advanced concepts like variable scope and prototypes. Unfortunately, they blame themselves. That's why the Dummies books sell so well. But the fault lies with the authors, coding virtuosos who lack teaching talent. I'm the opposite of the typical software book author. I'll never code fast enough to land a job at Google. But I can teach."
+  },
+  {
+    "isbn": "10",
+    "author": "Andrew Yueh",
+    "imageLink": "https://m.media-amazon.com/images/I/515FgoKcCtL._SX403_BO1,204,203,200_.jpg",
+    "title": "JavaScript Coding for Teens: A Beginner's Guide to Developing Websites and Games",
+    "price": 12,
+    "description": "Everything teens need to get started with JavaScript. Have you ever wanted to make your own game? How about an awesome website? Then JavaScript Coding for Teens is the book for you! It doesn’t matter if you’re not sure what a variable is, are stumped about syntax, or don’t even know how to use JavaScript on your computer! This simple guide to coding for beginners walks you through every part of the process with easy-to-understand language and straightforward directions. You’ll be coding like a pro in no time!"
+  },
+  {
+    "isbn": "11",
+    "author": "Ravi Kumar Gupta",
+    "imageLink": "https://m.media-amazon.com/images/I/51Cvd6Q-K7L.jpg",
+    "title": "Test-driven JavaScript Development",
+    "price": 42,
+    "description": "Learn the life cycle of TDD and its importance in real-world application. Gain knowledge about popular tools and analyze features, syntax, and how they help in JavaScript testing. Implement test-driven programming exercises using the practical code examples"
+  },
+  {
+    "isbn": "12",
+    "author": "Cay S. Horstmann",
+    "imageLink": "https://m.media-amazon.com/images/I/51ExiEnq6uL.jpg",
+    "title": "Modern JavaScript for the Impatient",
+    "price": 37,
+    "description": "JavaScript was originally designed for small-scale programming in web browsers, but modern JavaScript is radically different. Nowadays, JavaScript programmers actively embrace functional, object-oriented, and asynchronous programming, while deprecating error-prone concepts from the past. Modern JavaScript for the Impatient is a complete yet concise guide to JavaScript E6 and beyond. Rather than first requiring you to learn and transition from older versions, it helps you quickly get productive with today’s far more powerful versions and rapidly move from languages such as Java, C#, C, or C++. Bestselling programming author Cay S. Horstmann covers all you need to know, provided in small chunks organized for quick access and easy understanding. Horstmann’s practical insights and sample code help you take advantage of all that’s new, avoid common pitfalls and obsolete features, and make the most of modern JavaScript’s robust toolchains and frameworks."
+  },
+  {
+    "isbn": "13",
+    "author": "II Thomas Hunter, Bryan English",
+    "imageLink": "https://m.media-amazon.com/images/I/41cUvoAoI2S._SX379_BO1,204,203,200_.jpg",
+    "title": "Multithreaded JavaScript: Concurrency Beyond the Event Loop",
+    "price": 36,
+    "description": "The nature of JavaScript is to be single threaded. This is reflected not only in libraries and applications, but also in online forum posts, books, and online documentation. Thanks to recent advancements in the platform—such as with web workers in the browser, worker_threads in Node.js, and the Atomics and SharedArrayBuffer objects—JavaScript engineers are able to build multi-threaded applications. These features will go down as being the biggest paradigm shift for the world's most popular programming language."
+  },
+  {
+    "isbn": "14",
+    "author": "Mike McGrath",
+    "imageLink": "https://m.media-amazon.com/images/I/51D8nu8vjmL._SX408_BO1,204,203,200_.jpg",
+    "title": "HTML, CSS & JavaScript in easy steps",
+    "price": 21,
+    "description": "HTML, CSS & JavaScript in easy steps instructs the reader on each of the three coding languages that are used to create modern web pages: HyperText Markup Language (HTML) tags are used to control the structure of web page content; Cascading Style Sheets (CSS) rules are used to determine how web page content appears; and JavaScript functions are used to provide web page interactivity."
+  },
+  {
+    "isbn": "15",
+    "author": "Chong Lip Phang",
+    "imageLink": "https://m.media-amazon.com/images/I/41MuWYrwLrL._SX331_BO1,204,203,200_.jpg",
+    "title": "ECMAScript 2022: The Definitive Guide to Modern JavaScript",
+    "price": 14,
+    "description": "JavaScript is indubitably one of the most important programming languages today. Not only is it the standard programming language for modern browsers; its use at the back end (Node.js) is gaining popularity fast. Even mobile apps, desktop applications, and games for various platforms can be coded in JavaScript. It is, in fact, the most tagged technology in StackOverflow, the popular online discussion forum for programmers."
+  },
+  {
+      "isbn": "16",
+      "author": "Sebastian Springer",
+      "imageLink": "https://m.media-amazon.com/images/I/51mEyiR46fL._SX218_BO1,204,203,200_QL40_FMwebp_.jpg",
+      "title": "Node.js: The Comprehensive Guide to Server-Side JavaScript Programming",
+      "price": 39,
+      "description": "If you’re developing server-side JavaScript applications, you need Node.js! Start with the basics of the Node.js environment: installation, application structure, and modules. Then follow detailed code examples to learn about web development using frameworks like Express and Nest.js. Learn about different approaches to asynchronous programming, including RxJS and data streams. Details on peripheral topics such as testing, security, performance, and more, make this your all-in-one daily reference for Node.js!"
+    },
+    {
+      "isbn": "17",
+      "author": "John Resig, Bear Bibeault, Josip Maras",
+      "imageLink": "https://m.media-amazon.com/images/I/51u9Pg4riRL._SX397_BO1,204,203,200_.jpg",
+      "title": "Secrets of the JavaScript Ninja 2nd Edition",
+      "price": 35,
+      "description": "More than ever, the web is a universal platform for all types of applications, and JavaScript is the language of the web. If you're serious about web development, it's not enough to be a decent JavaScript coder. You need to be ninja-stealthy, efficient, and ready for anything."
+    },
+    {
+      "isbn": "18",
+      "author": "Ray Yao",
+      "imageLink": "https://m.media-amazon.com/images/I/41L1qvYjnaL._SX382_BO1,204,203,200_.jpg",
+      "title": "JavaScript Cheat Sheet, Cover all Basic JavaScript Syntaxes",
+      "price": 14,
+      "description": "This book covers all basic JavaScript syntaxes. We can quickly reference the most helpful programming syntaxes, such as common command syntax, string function syntax, collection function syntax, class & object syntax……; all these syntaxes are very useful for programming."    
+    }
+
+]

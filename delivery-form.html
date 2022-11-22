@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/delivery-form.css">
+    <title>Delivery form</title>
+</head>
+
+<body>
+    <header>
+        <div class="header_container">
+            <h1 class="title-shop"><a href="./index.html">books shop</a></h1>
+            <nav class="nav-panel">
+                <div class="user-info">
+                    <a class="card__icon cart" onclick="">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);">
+                            <path d="M21 4H2v2h2.3l3.28 9a3 3 0 0 0 2.82 2H19v-2h-8.6a1 1 0 0 1-.94-.66L9 13h9.28a2 2 0 0 0 1.92-1.45L22 5.27A1 1 0 0 0 21.27 4 .84.84 0 0 0 21 4zm-2.75 7h-10L6.43 6h13.24z"></path><circle cx="10.5" cy="19.5" r="1.5"></circle><circle cx="16.5" cy="19.5" r="1.5"></circle>
+                        </svg>
+                        <span class="cart_items">0</span>
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main" id="container">
+        <div class="container">
+            <div class="title">Delivery form</div>
+
+            <div class="form-errors"></div>
+            <form action="" id="form" onsubmit="form.onSubmit();return false;">
+                <div class="user_details">
+                    <div class="input-box">
+                        <span class="details">Name</span>
+                        <input type="text" name="name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Surname</span>
+                        <input type="text" name="surname" placeholder="Enter your surname" required>
+                    </div>
+                </div>
+                <div class="user_details">
+                    <div class="input-box">
+                        <span class="details">Delivery date</span>
+                        <input type="text" class="date-input-text" name="deliveryDate"
+                            placeholder="Delivery date ( DD-MM-YYYY )" required>
+                        <span class="datepicker-toggle">
+                            <span class="datepicker-toggle-button"></span>
+                            <input type="date" class="datepicker-input" name="date" value="" min="2022-11-11"max="2030-12-31">
+                        </span>
+                    </div>
+                </div>
+                <div class="user_details">
+                    <div class="input-box">
+                        <span class="details">Street</span>
+                        <input type="text" name="street" placeholder="Enter your street" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">House number</span>
+                        <input type="number" name="houseNumber" min="1" placeholder="House number" required>
+                    </div>
+
+                    <div class="input-box">
+                        <span class="details">Flat number</span>
+                        <input type="text" name="flatNumber" min="1" placeholder="Flat number" required>
+                    </div>
+                </div>
+                <div class="user_details">
+                    <div class="choose-box">
+                        <input name="payment" type="radio" id="cash" value="cash" required>
+                        <input name="payment" type="radio" id="card" value="card" required>
+                        <span class="details payment-title">Payment details</span>
+                        <div class="options">
+                            <label for="cash">
+                                <span class="dot one"></span>
+                                <span class="type">Cash</span>
+                            </label>
+                            <label for="card">
+                                <span class="dot two"></span>
+                                <span class="type">Card</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="choose-box">
+                        <span class="details gifts-title">Choose 2 gifts: (optional)</span>
+                        <div class="options checkbox">
+                            <label for="gift-1">
+                                <input name="gift-1" type="checkbox" id="gift-1" value="Pack as a gift">
+                                <span class="checkmark one"></span>
+                                <span class="type">Pack as a gift</span>
+                            </label>
+                            <label for="gift-2">
+                                <input name="gift-2" type="checkbox" id="gift-2" value="Add postcard">
+                                <span class="checkmark two"></span>
+                                <span class="type">Add postcard</span>
+                            </label>
+                            <label for="gift-3">
+                                <input name="gift-3" type="checkbox" id="gift-3"
+                                    value="Provide 2% discount to the next time">
+                                <span class="checkmark three"></span>
+                                <span class="type">Provide 2% discount to the next time</span>
+                            </label>
+                            <label for="gift-4">
+                                <input name="gift-4" type="checkbox" id="gift-4" value="Branded pen or pencil">
+                                <span class="checkmark four"></span>
+                                <span class="type">Branded pen or pencil</span>
+                            </label>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="button">
+                    <input type="submit" value="purchase" disabled>
+                </div>
+            </form>
+        </div>
+        <div class="container summary hide"></div>
+    </main>
+    <script src="./assets/js/delivery-form.js"></script>
+</body>
+
+</html>

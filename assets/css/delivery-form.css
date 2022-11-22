@@ -1,0 +1,447 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,500,700&display=swap');
+
+*Colores*/
+:root{
+    --first-color: #E3F8FF;
+    --second-color: #DCFAFB;
+    --third-color: #FFE8DF;
+    --green-color: #4B9200;
+    --accent-color: #FF5151;
+    --dark-color: #161616;
+}
+
+
+:root{
+    --body-font: 'Open Sans';
+    --h1-font-size: 1.5rem;
+    --h3-font-size: 1rem;
+    --normal-font-size: 0.938rem;
+    --smaller-font-size: 0.75rem;
+}
+
+@media screen and (min-width: 768px){
+    :root{
+        --h1-font-size: 2rem;
+        --normal-font-size: 1rem;
+        --smaller-font-size: 0.9rem;
+    }
+}
+@media screen and (max-width: 768px){
+    div.user-details{
+        flex-direction: column;
+    }
+    form .user_details:nth-child(1) .input-box, form .user_details:nth-child(3) .input-box:nth-child(1) {
+        width: 100% !important;
+    }
+    .container form .user_details{
+        flex-direction: column;
+    }
+    form .user_details .input-box {
+        width:100% !important;
+    }
+}
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    color: #161616;
+    font-family: var(--body-font);
+
+}
+
+header {
+    width: 100%;
+    font-weight: 500;
+    font-size: var(--h1-font-size);
+    line-height: 140%;
+    min-height: 80px;
+    padding-top: 14px;
+    box-sizing: border-box;
+    z-index: 1;
+    border-bottom: 1px solid rgb(213, 219, 219);
+}
+
+.header_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1600px;
+    margin: 0px auto;
+    padding: 0px 1rem;
+}
+
+.title-shop {
+    position: relative;
+    text-transform: uppercase;
+    width: 300px;
+    user-select: none;
+    cursor: default;
+}
+.title-shop::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 72px;
+    height: 2px;
+    background-color: #161616;
+    margin-left: 0.25rem;
+}
+.title-shop a{
+    color: var(--dark-color);
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: var(--h1-font-size);
+}
+a{
+    text-decoration: none;
+}
+main{
+    display: flex;
+    justify-content: center;
+   margin-top:3rem;
+}
+.user-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.user-info .card__icon {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    gap: 5px;
+}
+
+a.card__icon {
+    cursor: pointer;
+}
+.card__icon {
+    font-size: 1.5rem;
+    color: var(--dark-color);
+}
+
+
+.card__icon{
+    font-size: 1.5rem;
+    color: #161616;
+}
+.card__icon:hover{
+    color: var(--accent-color);
+}
+.card__icon.active{
+    color: var(--accent-color);
+}
+
+.container{
+    max-width: 700px;
+    width: 100%;
+    border: 0.125rem solid;
+    border-radius: 1rem;
+    padding: 1rem 1.5rem;
+    margin: 1rem;
+}
+.container .title{
+    font-size: 1.8rem;
+    font-weight: 700;
+    position: relative;
+    line-height: 3rem;
+    color: #023059;
+}
+.container .title::after {
+    content: '';
+    position: absolute;
+    bottom: 1%;
+    left:0;
+    width: 100%;
+    height: 1px;
+    background: #023059;
+    margin-left: 0.25rem;
+}
+.container .title::before {
+    content: '';
+    position: absolute;
+}
+.container form .user_details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+form .user_details .input-box{
+    margin-bottom: .75rem;
+    width: calc(100% / 4 - 1rem);
+}
+form .user_details:nth-child(1) .input-box,
+form .user_details:nth-child(3) .input-box:nth-child(1){
+    width: calc(100% / 2 - 1rem);
+}
+form .user_details:nth-child(2) .input-box{
+    width: 100%;
+}
+form .user_details:nth-child(2) .input-box input[type=text]{
+    width: calc(100% - 2.5rem);
+}
+form .user_details .choose-box {
+    margin: 1rem 0 0.4rem 0;
+    width: calc(100% / 2 - 1rem);
+}
+form .user_details .details{
+    font-weight: 600;
+    margin-bottom: .2rem;
+    display: block;
+}
+.hide{
+    display: none;
+}
+
+.datepicker-toggle {
+    display: inline-flex;
+    position: relative;
+    width: 2rem;
+    height: 2rem;
+    left: 0.3rem;
+  }
+  
+  .datepicker-toggle-button {
+    position: absolute;
+    left: 0rem;
+    top: 0.55rem;
+    width: 2rem;
+    height: 2rem;
+    background: transparent url(../datepicker.svg) no-repeat center center;
+    vertical-align: middle;
+    margin-left: 0rem;
+   
+}
+  .datepicker-input {
+    position: absolute;
+    left: 0;
+    top: 0.5rem;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+    box-sizing: border-box;
+  }
+  .datepicker-input::-webkit-calendar-picker-indicator {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+  }
+  
+.payment-title{
+    width: 100%;
+}
+
+.user_details .input-box input{
+    height: 2rem;
+    width: 100%;
+    outline: none;
+    border-radius: .2rem;
+    border: .1rem solid #ccc;
+    padding-left: .75rem;
+    font-size:1rem;
+    transition: all .3s ease;
+}
+.user_details .input-box input.datepicker-input{
+    width: 2.5rem;
+}
+
+/* .user_details .input-box input:focus,
+.user_details .input-box input:valid{
+    border-color:#023059;
+} */
+.user_details .options{
+    display: flex;
+    flex-direction: column;
+    padding-left: 0.75rem;
+}
+.user_details .options label{
+    display: flex;
+    align-items: center;
+}
+.user_details .options label:hover {
+    cursor: pointer;
+}
+.user_details .options label:hover .dot{
+    background-color: #ccc;
+    
+}
+.user_details .options label .dot{
+    height: 1rem;
+    width: 1rem;
+    background-color: #d9d9d9;
+    border-radius: 50%;
+    margin-right: .75rem;
+    border: 5px solid transparent;
+}
+
+#cash:checked ~ .options label .one,
+#card:checked ~ .options label .two{
+    border-color: #023059;
+    background: #fff;
+}
+form input[type=radio]{
+    display: none;
+}
+.options.checkbox label {
+    display: block;
+    position: relative;
+    padding-left: 2rem;
+    cursor: pointer;
+    font-size: 1rem;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    align-items: center;
+    margin-bottom: 0.4rem;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .options.checkbox label input {
+  display:none;
+  }
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 1.1rem;
+    width: 1.1rem;
+    background-color: #eee;
+    
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .options.checkbox label:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .options.checkbox label input:checked ~ .checkmark {
+    background:#023059;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .options.checkbox label input:checked ~ .checkmark:after {
+    display: block;
+    
+  }
+  
+  /* Style the checkmark/indicator */
+  .options.checkbox label .checkmark:after {
+    left: .4rem;
+    top: .2rem;
+    width: .4rem;
+    height: .6rem;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+form .button {
+    display: flex;
+    justify-content: center;
+}
+form .button input[type=submit]:disabled{
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: #262626;
+    color: #fff;
+    border: 2px solid #262626;
+    width: 100%;
+    border-radius: 0.25rem;
+    cursor: default;
+} 
+
+form .button input[type=submit],
+.summary .button input[type=button]
+{
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: #023059;
+    color: #fff;
+    width: 100%;
+    border-radius: 0.25rem;
+    border: 0.125rem solid #023059;
+}
+.user_details .input-box input.invalid,
+form .user_details .payment-title.invalid{
+    border: .1rem solid #FF5151;
+}
+.user_details .input-box input.valid{
+    border: .1rem solid #023059;
+}
+.form-errors{
+    color:#FF5151;
+    font-size: small;
+    padding: 1rem 0rem 0rem 1rem;
+}
+.container.summary{
+    border:none;
+    max-width: 1200px;
+}
+.container.summary.hide{
+    display:none;
+
+}
+.summary .user_details{
+    padding:2rem 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.summary .button{
+    margin-top:1rem;
+}
+.summary .user_details .input-box{
+    width: calc(100% / 3 - 1rem);
+}
+.summary .user_details .input-box.head{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.summary .user_details:nth-child(n+1) {
+    border-top: 1px solid #ccc;
+}
+.summary .user_details .input-box.head .details:nth-child(2){
+    width: 20rem
+}
+.summary .user_details .input-box.head .details:nth-child(1){
+    width: 7rem;
+}
+.summary .user_details .input-box.head .details:nth-child(n+3){
+    flex-grow: 0.2;
+}
