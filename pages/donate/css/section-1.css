@@ -1,6 +1,0 @@
-.section-1{
-    grid-row: 2/ 3;
-    grid-column: 1/-1;
-    background: no-repeat center/cover url('./../img/panda_bg.png');
-    display:flex;
-}
